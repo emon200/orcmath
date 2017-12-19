@@ -12,7 +12,7 @@ public class CatalogMaker {
 
 	public static Scanner in;
 
-	private ArrayList<Book> catalog;
+	private static ArrayList<Book> catalog;
 
 	public CatalogMaker() {
 		//instantiate the catalog
@@ -100,7 +100,7 @@ public class CatalogMaker {
 		catalog.add(b);
 	}
 
-	private void save() {
+	private static void save() {
 		try{    
 			FileWriter fw=new FileWriter("BookCatalog.csv");
 			for(Book b: catalog){

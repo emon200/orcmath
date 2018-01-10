@@ -1,7 +1,7 @@
 package simon;
 
 public interface MoveInterfaceAmanat {
-
-	ButtonInterfaceAmanat getButton();
+	
+	ButtonInterfaceAmanat getTheButton();
 
 }

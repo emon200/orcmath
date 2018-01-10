@@ -2,8 +2,10 @@ package simon;
 
 import guiTeacher.interfaces.Visible;
 
-public interface ProgressInterfaceAmanat extends Visible{
+public interface ProgressInterfaceAmanat extends Visible {
 
-	void gameOver();
+	void lose();
+
+	void setNum(int roundNum,int sequenceLength);
 
 }
